@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class World {
-    private List<Aeroport> aeroportList = new ArrayList<>();
+    public List<Aeroport> aeroportList = new ArrayList<>();
 
     public World(String fileName) {
         try {
