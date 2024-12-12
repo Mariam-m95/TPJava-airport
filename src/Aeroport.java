@@ -5,7 +5,7 @@ public class Aeroport {
         private String codeIATA;
         private String country;
 
-        public Aeroport(String nom, double latitude, double longitude, String codeIATA) {
+        public Aeroport(String nom, double latitude, double longitude, String codeIATA,String country) {
             this.nom = nom;
             this.latitude = latitude;
             this.longitude = longitude;

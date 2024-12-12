@@ -18,12 +18,12 @@ public class World {
                 //pt d arret
                 if (fields[1].equals("large_airport")) {
                     String codeIATA = fields[9];
-                    String pays = fields[5];
+                    String country = fields[5];
                     String nom = fields[2];
-                    double longitude = Double.parseDouble(fields[12]);
-                    double latitude = Double.parseDouble(fields[11]);
+                    double longitude = Double.parseDouble(fields[11]);
+                    double latitude = Double.parseDouble(fields[12]);
 
-                    Aeroport aeroport = new Aeroport(nom, latitude, longitude, codeIATA);
+                    Aeroport aeroport = new Aeroport(nom, latitude, longitude, codeIATA,country);
 
                     aeroportList.add(aeroport);
                 }
